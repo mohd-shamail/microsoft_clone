@@ -1,0 +1,15 @@
+
+.banner {
+    height: 60vh;
+
+}
+.c-img {
+    
+    background-position: center;
+    height: 80vh;
+   object-fit: cover;
+   filter: brightness(0.6);
+   background-position: center;
+    background-repeat: no-repeat;
+   
+}
