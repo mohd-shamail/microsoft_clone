@@ -17,12 +17,12 @@
   <body>
     <!-- Navbar starts here -->
     <nav class="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="home.html"
             ><img
               src="/icons/icon1.png"
-              height="25px"
+              height="30px"
               width="auto"
               alt="microsoft"
           /></a>
@@ -82,6 +82,11 @@
                   </li>
                 </ul>
               </li>
+              <li class="nav-item signin">Sign in</li>
+              <div class="signicon"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+              </svg></div>
             </ul>
             <!-- <form class="d-flex">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -91,54 +96,259 @@
         </div>
       </nav>
     </nav>
-    
-      <div
-        id="carouselExampleControls"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active banner">
-            <img
-              src="/images/banner1.jpg"
-              class="d-block w-100 c-img"
-              alt="network error"
-            />
-          </div>
-          <div class="carousel-item banner">
-            <img
-              src="/images/banner2.jpg"
-              class="d-block w-100 c-img"
-              alt="network error"
-            />
+    <!-- navbar ends here -->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/images/banner1.jpg" class="d-block w-100" alt="...">
+          <div class="d-none d-md-block myclass">
+            <a class="btn btn-light bt-m bt-n" href="#" role="button">New</a>
+            <h1 class="c-heading">Surface Pro 9</h1>
+            <p class="c-para">Keep spirit with  game-changing combo of laptop <br>power
+              and tablet flexibility - all in one ultra-portable device</p>
+             <div class="pt-2"> <button class="btn btn-dark fs-5 bt-m" type="submit">Learn now</button></div>
+            </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/banner2.jpg" class="d-block w-100" alt="...">
+          <div class="d-none d-md-block myclass">
+            <a class="btn btn-light bt-m bt-n" href="#" role="button">New</a>
+            <h1 class="c-heading">PC Game Pass</h1>
+            <p class="c-para">Unwrap 100+ great and EA Play ,plus get your first<br>
+              month for20B9 50. Offer available to new subscribe only.</p>
+              <div class="pt-2"><button class="btn btn-dark bt-m fs-5" type="submit">Join now</button></div>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <!-- section area starts here -->
-    <section>
-      <div>
-        <div></div>
-      </div>
-    </section>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
+     <!-- icon area starts here -->
+     <div class="container icon-marg">
+      <div class="iconbanner">
+      <div class="ms-5"><img src="/icons/icon2.webp" height="50px" width="50px"></div>
+      <div><img src="/icons/icon3.webp" height="50px" width="50px"></div>
+      <div><img src="/icons/icon4.webp" height="50px" width="50px"></div>
+      <div><img src="/icons/icon2.webp" height="50px" width="50px"></div> 
+    </div>
+    <div class="icon-v mt-2 text-icon">
+      <div><p><a href="" class="text-dark">Choose your Microsoft 365</a></p></div>
+      <div><p><a href=""class="text-dark">Expore Surface devices</a></p></div>
+      <div><p><a href=""class="text-dark">Buy Xbox games</a></p></div>
+     <div><p><a href=""class="text-dark">Get Windows 11</a></p></div>
+    </div>
+    </div>
+
+    <!-- section area starts here -->
+
+    <div class="card-group pt-5">
+      <div class="card removeborder ps-5 pe-3">
+        <img src="/images/cardimg1.webp" class="card-img-top" alt="..." />
+        <div class="card-body"><a class="btn bt-c" href="#" role="button">New</a>
+          <h3 class="card-title pt-2">Surface Laptop 5</h3>
+          <p class="card-text">
+            Sophisticated style and multitasking speed powered by 12th Gen
+            Intel® Core™ i5/i7 processors built on the Intel® Evo™ platform make
+            this the perfect gift
+          </p>
+          <p class="card-text">
+            <small class="text fs-4">Learn more ></small>
+          </p>
+        </div>
+      </div>
+      <div class="card removeborder pe-3 ps-3">
+        <img src="/images/cardimg2.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h3 class="card-title pt-4">Xbox Series X</h3>
+          <p class="card-text">
+            Give thrills that’ll last all year with the fastest, most powerful
+            Xbox ever.
+          </p>
+          <p class="card-text">
+            <small class="text fs-5">Shop Xbox Series X > </small>
+          </p>
+        </div>
+      </div>
+      <div class="card removeborder pe-3 ps-3">
+        <img src="/images/cardimg3.webp" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h3 class="card-title pt-4">Microsoft 365</h3>
+          <p class="card-text">
+            
+Apps and features to help you turn ideas into reality, stay safer and focus on the important things in life.
+
+ 
+          </p>
+          <p class="card-text">
+            <small class="text fs-5">For one person ></small></p>
+           <p small class="text fs-5">For up to six people> </small></p>
+          
+        </div>
+      </div>
+      <div class="card removeborder pe-5 ps-3">
+        <img src="/images/cardimg4.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h3 class="card-title pt-4">Designed for life today – and tomorrow</h3>
+          <p class="card-text">
+            The next-generation of games. Your goals. Friends and family. Windows 11 was made to bring you closer to everything you love.
+          </p>
+          <p class="card-text">
+            <small class="text fs-5">see if your PC is ready ></small>
+          </p>
+        </div>
+      </div>
+    </div>
+     <!-- next page section  -->
+    <div class="container">
+      <div class="newb">
+        <div class="cardm">
+        <div class="card removeborder pt-2 pb-5" style="width: 23rem;">
+          <div class="card-body">
+            <h1 class="card-title p-3">Microsoft Edge</h1>
+            <p class="card-text p-2">World-class performance with more privacy, more productivity and more value while you browse</p>
+            <a href="#" class="btn btn-dark ms-3">Download now</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+       <!-- bottom card -->
+    <div class="slgn pb-4"><h3 class="write fs-1">For business</h3></div>
+    <div><div class="card-group">
+  <div class="card removeborder pe-3 ps-5">
+    <img src="/images/cardimg5.webp" class="card-img-top" alt="...">
+    <div class="card-body"><a class="btn bt-c" href="#" role="button">New</a>
+      <h3 class="card-title pt-2">Surface for Business Family</h3>
+      <p class="card-text">
+        Surface for Business devices enable work on your team's terms with flexibility, built-in security and the power they need to succeed..</p>
+      <p class="text fs-5">Learn more ></p>
+    </div>
+  </div>
+  <div class="card removeborder pe-3 ps-3">
+    <img src="/images/cardimg6.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="card-title pt-5">Get Microsoft Teams for free</h3>
+      <p class="card-text">
+        Online meetings, chat and shared cloud storage – all in one place.</p>
+      <p class="card-text fs-5"><small class="text">sign up for free ></small></p>
+    </div>
+  </div>
+  <div class="card removeborder pe-3 ps-3">
+    <img src="/images/cardimg7.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="card-title pt-5">Thrive in a hybrid world</h3>
+      <p class="card-text">
+        Discover tools, resources and strategies to help your employees succeed in the new world of flexible work..</p>
+      <p class="card-text fs-5"><small class="text">Learn more ></small></p>
+    </div>
+  </div>
+  <div class="card removeborder pe-5 ps-3">
+    <img src="/images/cardimg8.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="card-title pt-5">Welcome to your Windows 365 Cloud PC</h3>
+      <p class="card-text">
+        Securely stream your Windows experience from the Microsoft cloud to any device..</p>
+      <p class="card-text fs-5"><small class="text">Get it today ></small></p>
+    </div>
+  </div>
+</div></div>
+<!-- footer starts here -->
+ <div class="container d-lg-flex">
+  <div><p class="card-text fs-4 pt-1"> Folow Microsoft</p></div>
+  <div class="ps-4 pt-2"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+  </svg></div>
+  <div class="ps-4 pt-2"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+  </svg></div>
+  <div class="ps-4 pt-2"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+    <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+  </svg></div>
+ </div>
+ <div class="float-end pe-4"><button type="button" class="btn btn-secondary text-dark btn-lg">Large button &#8593</button></div>
+   <!-- proper foooter starts here -->
+   <footer class="footer-top">
+   <div class="container-fluid">
+    <div class="footer-content">
+      <h5 class="pb-3">What's new</h5>
+      <p><a href="">Microsoft 365</a></p>
+      <p><a href="">Surface Pro X</a></p>
+      <p><a href="">Surface Pro 7</a></p>
+      <p><a href="">Surface Laptop 3</a></p>
+      <p><a href="">Windows 11 apps</a></p>
+    </div>
+
+    <div class="footer-content">
+      <h5 class="pb-3">Microsoft Store</h5>
+      <p><a href="">Account Profile</a></p>
+      <p><a href="">Download Center</a></p>
+      <p><a href="">Microsoft Store Support</a></p>
+      <p><a href="">Returns</a></p>
+      <p><a href="">Order tracking</a></p>
+    </div>
+
+    <div class="footer-content">
+      <h5 class="pb-3">Educations</h5>
+      <p><a href="">Microsoft in education</a></p>
+      <p><a href="">Devices for Education</a></p>
+      <p><a href="">Microsoft Teams</a></p>
+      <p><a href="">Microsoft 365 Education</a></p>
+      <p><a href="">Office Education</a></p>
+      <p><a href="">Educator training development</a></p>
+      <p><a href="">Deals for Students</a></p>
+      <p><a href="">Azure for Students</a></p>
+    </div>
+
+    <div class="footer-content">
+      <h5 class="pb-3">Business</h5>
+      <p><a href="">Microsoft Cloud</a></p>
+      <p><a href="">Microsoft security</a></p>
+      <p><a href="">Azure</a></p>
+      <p><a href="">Dynamic 365</a></p>
+      <p><a href="">Microsoft 365</a></p>
+      <p><a href="">Microsoft Advertising</a></p>
+      <p><a href="">Microsoft Industry</a></p>
+      <p><a href="">Microsoft Teams</a></p>
+    </div>
+
+    <div class="footer-content">
+      <h5 class="pb-3">Development &#38 IT</h5>
+      <p><a href="">Developer Center</a></p>
+      <p><a href="">Documentations</a></p>
+      <p><a href="">Microsoft Learn</a></p>
+      <p><a href="">Microsoft Tech Community</a></p>
+      <p><a href="">Azure Marketplace</a></p>
+      <p><a href="">AppSource</a></p>
+      <p><a href="">Microsoft Power platform</a></p>
+    </div>
+
+    <div class="footer-content">
+      <h5 class="pb-3">Company</h5>
+      <p><a href="">Careers</a></p>
+      <p><a href=""> About Microsot</a></p>
+      <p><a href="">Company news</a></p>
+      <p><a href="">Privacy at Microsoft</a></p>
+      <p><a href="">Security</a></p>
+      <p><a href="">Sustainability</a></p>
+    </div>
+   </div>
+   <!-- <div class="icon-e"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe-americas" viewBox="0 0 16 16">
+    <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0ZM2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484-.08.08-.162.158-.242.234-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z"/>
+  </svg>English(India)</div> --><br>
+
+   </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
